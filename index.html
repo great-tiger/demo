@@ -6,15 +6,18 @@
     <meta name="keywords" content="图森,图森科技,北京图森互联科技有限责任公司,图像识别,人工智能,原生图片广告,知图,知图科技">
     <meta name="description"
           content="原知图科技，现重组更名为北京图森互联科技有限责任公司，是图像识别和人工智能领域的技术型创业公司。由中国连续创业者和美国顶尖院校科学家共同创办。图片内嵌原生广告的缔造者。">
-    <link href="css/css.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
     <script src="//cdn.bootcss.com/jquery/1.12.1/jquery.min.js"></script>
+    <script src="javascript/common.js"></script>
 </head>
 <body>
 <div class="header">
     <div class="containter">
         <div class="menu">
             <div class="logo">
-                <img src="images/logo.png" width="169" height="47">
+                <a href="index.html"> <img src="images/logo.png" alt="logo" width="169" height="47"/></a>
             </div>
             <ul class="menu-block">
                 <li>
@@ -45,7 +48,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="javascript:;">行业资讯</a>
+                    <a href="news.html">行业资讯</a>
                 </li>
                 <li>
                     <a href="javascript:;">加入我们</a>
@@ -63,8 +66,8 @@
             </div>
         </div>
     </div>
-
 </div>
+
 <div class="containter main-block">
     <h2><span class="greentext">Tu</span>Simple 解决方案</h2>
 
@@ -190,22 +193,6 @@
         <p>Copyright © 2015 BEIJING TUSIMPLE TECHNOLOGY CO.,LTD. All Rights Reserved</p>
     </div>
 </div>
-<script type="text/javascript">
-    $(".menu-block>li").mouseover(function () {
-        $(this).children('.menu-nav').show();
-    }).mouseout(function () {
-        $(this).children('.menu-nav').hide();
-    });
 
-    $("#contact li[img]").click(function () {
-        var img = $(this).attr('img');
-        var codeImg = $("#code");
-        if(!codeImg.is(':visible')){
-            codeImg.show();
-        }
-        var src = codeImg.attr("src");
-        codeImg.attr('src','images/'+img);
-    })
-</script>
 </body>
 </html>
