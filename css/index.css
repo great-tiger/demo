@@ -25,26 +25,27 @@
 .banner p{ color:#f5f5f5;  margin-bottom: 25px; font-size: 20px;}
 .banner a{ color: #74bd00; text-decoration: underline; margin-right:50px;}
 
-.main-block{ padding:90px 0px;}
+.main-block{ padding:90px 0px 0px 0px;}
 .main-block h2{ font-size:48px; text-align: center;
     background: url("../images/title_bg.png") no-repeat center bottom; }
 .main-block .s-title{ color: #cbcbcb; text-align: center; font-size: 18px;
     margin-bottom: 45px;}
-.solution-block{ text-align: center; margin:0px 71px; float: left; width: 446px;}
-.solution-block h3{ font-size: 32px;margin:25px 0px;font-weight:normal}
-.solution-block p{ margin-bottom: 15px; font-size: 16px;}
-.solution-block a{ color:#6eb706;}
+.main-block .content{text-indent:2em; font-size:20px; padding:0px 110px;}
+.main-block .map{ text-align: center; padding-top:50px;}
+.main-block .map img{ border:0;}
 
-.main-block-w{background: url("../images/block_bg.jpg") no-repeat center top;
-    background-size: cover; width: 100%;}
-.main-block-w h2{ color:#fff;
-    background: url("../images/title_bg_2.png") no-repeat center bottom;}
-.core-block{ width: 330px; margin:60px 50px 0px 50px;  text-align: center; float: left}
-.core-block h3{ color:#00c0ff;  font-size:36px; margin:25px 0px; font-weight:normal}
-.core-block p{ color:#9f9f9f; font-size: 16px;}
+.main-block .business-content{font-size:20px; padding:0px 110px;}
+.business-content h3{ font-size: 32px;margin:25px 0px;font-weight:normal}
+.business-content p{ margin-bottom: 15px; font-size: 16px;}
+.business-content a{ color:#01ad05; font-size:15px;}
+.business-img-01{float:left;}
+.business-info-01{float: right;width:500px;}
+.business-img-02{float:right;}
+.business-info-02{float: left;width:500px;text-align: right;}
 
-.partent-block{ text-align: center}
-.partent-block img{ margin:0px 10px; }
+.partner{background-color:#f5f5f5;margin-top:80px;}
+.parent-block{ text-align: center; padding:45px 0px;}
+.parent-block img{ margin:0px 10px;  }
 
 .footer{ text-align: center; background: #000; border-top:#6eb706 solid 9px; padding:30px 0px;}
 .footer a,.footer p{color: #727171;}
